@@ -1,0 +1,6 @@
+UITStudentCard
+name
+year
+faculty
+ID
+face
