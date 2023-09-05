@@ -29,7 +29,6 @@ with col3:
     button = st.button("Retrieve Information:")
     if button:        
         # OCR
-        st.write('running...')
         config = Cfg.load_config_from_name('vgg_transformer')
         config['cnn']['pretrained']=False
         config['device'] = 'cpu'
